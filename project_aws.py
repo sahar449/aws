@@ -11,7 +11,7 @@ def deploy_instance():
          MinCount=1,
          MaxCount=int(input("How many instances?\n")),
          InstanceType=input("Which type of instance?\n"),
-         KeyName='idan_kp'
+         KeyName='sahar'
  )
 
 def describe_instance():
